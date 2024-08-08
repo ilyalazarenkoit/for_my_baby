@@ -31,7 +31,10 @@ function App() {
   return (
     <div className="App">
       <audio ref={audioRef} autoPlay loop muted>
-        <source src="/music/40394906.mp3" type="audio/mpeg" />
+        <source
+          src="https://res.cloudinary.com/dgt4yqucb/video/upload/v1723141672/40394906_qrqpr3.mp3"
+          type="audio/mpeg"
+        />
         Ваш браузер не поддерживает воспроизведение аудио.
       </audio>
 
